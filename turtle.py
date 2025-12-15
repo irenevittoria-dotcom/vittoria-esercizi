@@ -20,12 +20,9 @@ turtle_start.goto(-100, -100)
 
 turtle_start.begin_fill()
 turtle_start.color("red")
-turtle_start.forward(3)
-turtle_start.right(90)
-turtle_start.forward(3)
-turtle_start.right(90)
-turtle_start.forward(3)
-
+for i in range(4):
+    turtle_start.forward(100)
+    turtle_start.left(90)
 turtle.end_fill
 
 
